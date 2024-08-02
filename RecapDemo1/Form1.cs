@@ -34,8 +34,8 @@ namespace RecapDemo1
                 for (int j = 0; j <= buttons.GetUpperBound(1); j++)
                 {
                     buttons[i, j] = new Button();
-                    buttons[i, j].Width = 50;
-                    buttons[i, j].Height = 50;
+                    buttons[i, j].Width = 60;
+                    buttons[i, j].Height = 60;
                     buttons[i, j].Left = left;
                     buttons[i, j].Top = top;
                     left += 50;
